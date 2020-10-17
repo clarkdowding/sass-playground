@@ -42,16 +42,15 @@ img {
 .navbar {
   display: flex;
   align-items: center;
-  // justify-content: space-between;
+  justify-content: space-between;
   background-color: $dark-color;
   color: $light-color;
-  opacity: 0.9;
+  // opacity: 0.9;
   width: 100%;
   height: 70px;
   position: fixed;
   top: 0px;
   padding: 0px 30px;
-  margin: auto;
 
   .logo {
     font-weight: 400;
@@ -63,12 +62,16 @@ img {
     margin: 0px 5px;
   }
   a:hover {
-    border-bottom: solid $primary-color 5px;
+    border-bottom: solid $secondary-color 5px;
   }
 
   ul {
     display: flex;
   }
+}
+
+.container {
+  max-width: $max-width;
 }
 
 /* Cards */
